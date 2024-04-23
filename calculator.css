@@ -1,0 +1,72 @@
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #3498db; /* Blue background color */
+  }
+  
+  #display {
+    width: calc(100% - 10px);
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+  }
+  
+  button:hover {
+    background-color: #d3d3d3;
+  }
+  
+  .button-operator {
+    background-color: #ff8c00; /* Orange color for operator buttons */
+    color: white;
+  }
+  
+  .button-operator:hover {
+    background-color: #ff7f00; /* Darker shade of orange on hover */
+  }
+  
+  .button-equal {
+    background-color: #4caf50; /* Green color for equal button */
+    color: white;
+  }
+  
+  .button-equal:hover {
+    background-color: #388e3c; /* Darker shade of green on hover */
+  }
+  
+  .button-clear {
+    background-color: #f44336; /* Red color for clear button */
+    color: white;
+  }
+  
+  .button-clear:hover {
+    background-color: #d32f2f; /* Darker shade of red on hover */
+  }
+  
+  .button-special {
+    background-color: #2196f3; /* Blue color for special buttons */
+    color: white;
+  }
+  
+  .button-special:hover {
+    background-color: #1976d2; /* Darker shade of blue on hover */
+  }
